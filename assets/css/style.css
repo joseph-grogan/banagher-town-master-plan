@@ -1,0 +1,257 @@
+/* ============================================
+   Banagher Town Masterplan — Stylesheet
+   ============================================ */
+
+/* --- Reset & Base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:      #2e7d32;
+  --green-dark: #1b5e20;
+  --green-light:#e8f5e9;
+  --blue:       #1565c0;
+  --blue-light: #e3f2fd;
+  --grey-50:    #fafafa;
+  --grey-100:   #f5f5f5;
+  --grey-200:   #eeeeee;
+  --grey-600:   #757575;
+  --grey-800:   #424242;
+  --grey-900:   #212121;
+  --radius:     6px;
+  --shadow:     0 2px 8px rgba(0,0,0,.08);
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.7;
+  color: var(--grey-900);
+  background: var(--grey-50);
+}
+
+img { max-width: 100%; height: auto; }
+
+a { color: var(--green); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* --- Container --- */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* --- Header --- */
+.site-header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: rgba(255,255,255,.85);
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+}
+.site-nav a:hover { color: #fff; text-decoration: none; }
+
+/* --- Footer --- */
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background: var(--grey-200);
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--grey-600);
+}
+.site-footer .small { font-size: 0.8rem; margin-top: 0.25rem; }
+
+/* --- Hero --- */
+.hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  border-bottom: 3px solid var(--green);
+  margin-bottom: 2.5rem;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  color: var(--green-dark);
+  margin-bottom: 0.5rem;
+}
+.hero .lead {
+  font-size: 1.2rem;
+  color: var(--grey-600);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.hero p:last-child {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* --- Featured Section --- */
+.featured {
+  background: var(--green-light);
+  border-left: 4px solid var(--green);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2.5rem;
+}
+.featured h2 { margin-bottom: 0.75rem; color: var(--green-dark); }
+.featured p { margin-bottom: 0.75rem; }
+
+/* --- Button --- */
+.btn {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn:hover { background: var(--green-dark); text-decoration: none; color: #fff; }
+
+/* --- Project Grid (homepage) --- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--grey-200);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s, transform 0.15s;
+  color: inherit;
+}
+.project-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,.12);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.project-card h3 {
+  margin: 0.5rem 0 0.35rem;
+  font-size: 1.1rem;
+}
+.project-card p {
+  font-size: 0.9rem;
+  color: var(--grey-600);
+  margin: 0;
+}
+
+/* --- Status Badges --- */
+.status-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+.status-concept     { background: #fff3e0; color: #e65100; }
+.status-in-progress { background: #e3f2fd; color: #1565c0; }
+.status-launched    { background: #e8f5e9; color: #2e7d32; }
+
+/* --- Project Page --- */
+.project-header {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 3px solid var(--green);
+  margin-bottom: 2rem;
+}
+.project-header h1 {
+  font-size: 2rem;
+  color: var(--green-dark);
+  margin-top: 0.5rem;
+}
+.project-header .tagline {
+  font-size: 1.15rem;
+  color: var(--grey-600);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.project-body h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--green-dark);
+  border-bottom: 1px solid var(--grey-200);
+  padding-bottom: 0.3rem;
+}
+.project-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.project-body p,
+.project-body li {
+  margin-bottom: 0.6rem;
+}
+.project-body ul, .project-body ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.project-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+.project-body th, .project-body td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--grey-200);
+}
+.project-body th {
+  background: var(--grey-100);
+  font-weight: 600;
+}
+.project-body blockquote {
+  background: var(--blue-light);
+  border-left: 4px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+.project-body blockquote p { margin-bottom: 0.3rem; }
+.project-body hr {
+  border: none;
+  border-top: 1px solid var(--grey-200);
+  margin: 2rem 0;
+}
+
+.project-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--grey-200);
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.6rem; }
+  .featured { padding: 1rem 1.25rem; }
+  .project-grid { grid-template-columns: 1fr; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .site-nav a { margin-left: 0; margin-right: 1rem; }
+}

@@ -1,0 +1,28 @@
+title: Banagher Town Masterplan
+description: >-
+  Where History Meets Community, and Community Creates the Future.
+  Projects, status, and how to get involved.
+baseurl: "/banagher-town-master-plan"
+url: ""
+
+markdown: kramdown
+permalink: /projects/:slug/
+
+collections:
+  projects:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+exclude:
+  - docs/
+  - README.md
+  - Gemfile.lock
+  - "*.pdf"
+  - "*.pdf:*"

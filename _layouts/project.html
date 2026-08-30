@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="project-page">
+  <header class="project-header">
+    <span class="status-badge status-{{ page.status | slugify }}">{{ page.status }}</span>
+    <h1>{{ page.title }}</h1>
+    {% if page.tagline %}<p class="tagline">{{ page.tagline }}</p>{% endif %}
+  </header>
+
+  <div class="project-body">
+    {{ content }}
+  </div>
+
+  <footer class="project-footer">
+    <a href="{{ '/' | relative_url }}">&larr; Back to all projects</a>
+  </footer>
+</article>
