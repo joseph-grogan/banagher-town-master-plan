@@ -6,6 +6,7 @@ baseurl: "/banagher-town-master-plan"
 url: ""
 
 markdown: kramdown
+theme: null
 permalink: /projects/:slug/
 
 collections:

@@ -1,0 +1,63 @@
+<div id="project-map"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+<script>
+(function() {
+  var map = L.map('project-map').setView([53.1890, -7.9870], 15);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  }).addTo(map);
+
+  var statusColours = {
+    'Concept':     '#e65100',
+    'In Progress': '#1565c0',
+    'Launched':    '#2e7d32'
+  };
+
+  var projects = [
+    {% for project in site.projects %}
+    {% if project.lat and project.lng %}
+    {
+      title:  {{ project.title | jsonify }},
+      status: {{ project.status | jsonify }},
+      tagline: {{ project.tagline | jsonify }},
+      url:    {{ project.url | relative_url | jsonify }},
+      lat:    {{ project.lat }},
+      lng:    {{ project.lng }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+    {% endfor %}
+  ];
+
+  projects.forEach(function(p) {
+    var colour = statusColours[p.status] || '#757575';
+
+    var icon = L.divIcon({
+      className: 'map-marker',
+      html: '<div style="background:' + colour + ';width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3);"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -10]
+    });
+
+    var popup = '<div class="map-popup">' +
+      '<strong>' + p.title + '</strong><br>' +
+      '<span class="map-popup-status" style="color:' + colour + ';">' + p.status + '</span><br>' +
+      '<em>' + p.tagline + '</em><br>' +
+      '<a href="' + p.url + '">View project &rarr;</a>' +
+      '</div>';
+
+    L.marker([p.lat, p.lng], { icon: icon })
+      .bindPopup(popup)
+      .addTo(map);
+  });
+})();
+</script>

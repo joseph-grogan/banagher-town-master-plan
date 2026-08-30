@@ -26,7 +26,11 @@ title: Home
 </section>
 
 <section id="projects">
-  <h2>Town Projects</h2>
+  <h2>Project Map</h2>
+  <p>Explore Banagher's projects on the map. Click a pin for details.</p>
+  {% include map.html %}
+
+  <h2 style="margin-top: 2.5rem;">All Projects</h2>
   <div class="project-grid">
     {% for project in site.projects %}
     <a href="{{ project.url | relative_url }}" class="project-card">
