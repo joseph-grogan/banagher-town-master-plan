@@ -17,6 +17,8 @@ of that: a WhatsApp group of local people willing to lend a hand when they can.
 
 Just a network that can be activated when a project needs a few extra pairs of hands.
 
+<img src="{{ '/assets/images/meitheal/meitheal.png' | relative_url }}" alt="Banagher Meitheal" width="600">
+
 ---
 
 ## Why It Matters
