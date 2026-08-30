@@ -1,10 +1,10 @@
 ---
 title: Banagher Meitheal
 tagline: Many Hands, One Community
-status: Concept
+status: In Progress
 order: 1
-lat: 53.1890
-lng: -7.9870
+lat: 53.19336
+lng: -7.980042
 ---
 
 ## What Is the Meitheal?

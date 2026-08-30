@@ -3,8 +3,8 @@ title: Shannon Hotel Grounds
 tagline: Reimagining a Landmark for the Community
 status: Concept
 order: 3
-lat: 53.1895
-lng: -7.9850
+lat: 53.192061
+lng: -7.989398
 ---
 
 The Shannon Hotel was once a central part of life in Banagher — a landmark building that brought activity, visitors, and energy to the town. Over the years, the building has fallen into disrepair.
