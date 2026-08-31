@@ -9,6 +9,6 @@ lng: -7.994420
 
 Some text and slogan about what was achieved with this project
 
-<img src="{{ '/assets/images/pool-upgrade/banagher-pool-finished.jpg' | relative_url }}" alt="Banagher Pool Upgrade" width="600">
+<img src="{{ '/assets/images/pool-upgrade/banagher-pool-finished.jpg' | relative_url }}" alt="Banagher Pool Upgrade" width="800">
 
 What was build

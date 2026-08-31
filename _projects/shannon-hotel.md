@@ -20,10 +20,22 @@ The West End of Banagher was once the liveliest part of the town. With careful p
 ### Current Hotel Grounds
 <img src="{{ '/assets/images/hotel-grounds/current-hotel-grounds.png' | relative_url }}" alt="Current Hotel Grounds" width="400">
 
-### Proposed Hotel Grounds
-<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds.png' | relative_url }}" alt="Proposed Hotel Grounds" width="800">
+---
 
 ### Proposed Hotel Grounds
+
+**Sports Courts** and extended paths ways
+<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds.png' | relative_url }}" alt="Proposed Hotel Grounds" width="800">
+
+<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-football-pitch.png' | relative_url }}" alt="Example football pitch" width="800">
+
+<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-football-pitch-material.png' | relative_url }}" alt="Example football pitch material" width="300">
+
+---
+
+**Campervan Parking** and entrance
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-campervan-park.png' | relative_url }}" alt="Proposed Hotel Grounds with campervan park" width="800">
+
+
 
 
