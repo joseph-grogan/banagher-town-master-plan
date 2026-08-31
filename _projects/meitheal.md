@@ -11,7 +11,7 @@ lng: -7.980042
 
 A **meitheal** *(meh-hal)* is an old Irish tradition — neighbours coming together to help one
 another and improve their community. The Banagher Meitheal is a modern, low-commitment version
-of that: a WhatsApp group of local people willing to lend a hand when they can.
+of that: a WhatsApp Community of local people willing to lend a hand when they can.
 
 **No committees. No meetings. No obligations.**
 
@@ -34,12 +34,27 @@ project on the list — it's the thing that helps all the other projects move.
 
 ## How It Will Work
 
-### The WhatsApp Group
+### The WhatsApp Community
 
-- One group: **Banagher Meitheal**
-- Used **only** for call-outs (not general chat)
-- Anyone can join, no commitment expected
-- If a call-out suits you, show up. If not, no problem.
+We'll use a **WhatsApp Community** rather than a simple group. A Community gives us:
+
+- **📢 Announcement channel** — one-way, admins post call-outs, members receive. No chat noise.
+- **💬 Optional sub-groups** — if a specific project needs coordination (e.g. a Tidy Towns cleanup), we can spin up a group within the community for that.
+- **📊 Built-in events and polls** — useful for call-outs ("Can you make Saturday?").
+- **🔒 Phone numbers hidden** from other members — only admins can see them.
+- **👥 Up to 2,000 members** — more than enough for Banagher.
+
+The structure looks like this:
+
+```
+Banagher Meitheal (Community)
+├── 📢 Announcements (call-outs go here, one-way)
+├── 💬 General Chat (optional, for anyone who wants to chat)
+├── 🌿 Tidy Towns Help (optional, spun up as needed)
+└── 🏰 Fort Falkland Event (optional, temporary)
+```
+
+Anyone can join via a **shared invite link** or **QR code** — no need to be manually added.
 
 ### What a Call-Out Looks Like
 
@@ -55,10 +70,10 @@ Every call-out posted to the group follows the same simple format:
 >
 > No signup needed — just show up!
 
-### Ground Rules
+### Ground Rules (for the Announcements channel)
 
-1. This group is for meitheal call-outs only — no replies, no general chat, no memes, no politics. If you have a question, contact the coordinator directly.
-2. Call-outs are posted by the coordinator or project leads by arrangement.
+1. The Announcements channel is for meitheal call-outs only — posted by the coordinator or project leads.
+2. General conversation belongs in the optional sub-groups, not Announcements.
 3. There's never any pressure to attend. Show up when you can.
 4. Be respectful and welcoming — especially to new faces.
 
@@ -72,7 +87,8 @@ Every call-out posted to the group follows the same simple format:
 |------|------|
 | **Coordinator** | One person takes ownership for the first 3 months — posts call-outs, liaises with project leads, welcomes new members. |
 | **First Event** | Have the first meitheal lined up *before* sharing the link. Something visible, 2 hours max, no special skills needed. |
-| **Create the Group** | Set up the WhatsApp group with ground rules and the first event pinned. |
+| **Create the Community** | Set up the WhatsApp Community with the Announcement channel and ground rules. See [How to create a community](https://faq.whatsapp.com/438859978317289/?helpref=hc_fnav&cms_platform=web) for step-by-step instructions. |
+| **Generate Invite Link** | Create the community invite link and QR code. See [How to invite members](https://faq.whatsapp.com/664523651672109/?helpref=hc_fnav&cms_platform=web) for how to share it. |
 | **Connect to Projects** | Reach out to Tidy Towns, Fort Falkland, Graveyard Signage, Photo Archive — ask each what they need hands for in the next month. |
 
 ### Launch Sequence
@@ -81,7 +97,7 @@ Every call-out posted to the group follows the same simple format:
 |------|--------|
 | **Now** | Appoint coordinator |
 | **This week** | Pick and confirm the first event (date, location, task) |
-| **Once confirmed** | Create WhatsApp group, pin rules + first event |
+| **Once confirmed** | Create WhatsApp Community, set up Announcement channel, pin rules + first event |
 | **Same day** | Post announcement on social media and Banagher Notice Board |
 | **Same day** | Ask BDG members to share the link personally |
 | **Within 2 weeks** | Run the first event |
@@ -117,7 +133,28 @@ Every call-out posted to the group follows the same simple format:
 
 ## Get Involved
 
-The WhatsApp group is coming soon. In the meantime, if you'd like to help or have ideas,
-talk to any member of the Banagher Town Development Group.
+<!-- 
+  TODO: Replace the placeholder below with the real WhatsApp Community invite link and QR code.
+  To generate a QR code from the link, use any free QR generator (e.g. qr-code-generator.com).
+  Save the QR code image to assets/images/meitheal/qr-code.png
+-->
+
+The WhatsApp Community is coming soon. Once it's live, you'll be able to join by scanning the QR code or tapping the link below.
+
+<!-- Uncomment and update when the Community is created:
+<div class="join-section" style="text-align: center; padding: 2rem; background: #e8f5e9; border-radius: 6px; margin: 1.5rem 0;">
+  <h3>Join the Banagher Meitheal</h3>
+  <p>Scan the QR code or tap the button to join our WhatsApp Community.</p>
+  <img src="{{ '/assets/images/meitheal/qr-code.png' | relative_url }}" alt="Scan to join Banagher Meitheal" width="200" style="margin: 1rem auto; display: block;">
+  <a href="YOUR_WHATSAPP_COMMUNITY_LINK_HERE" class="btn" style="margin-top: 1rem;">Join on WhatsApp</a>
+</div>
+-->
+
+In the meantime, if you'd like to help or have ideas, talk to any member of the Banagher Town Development Group.
+
+### Useful Links
+
+- [How to create a WhatsApp Community](https://faq.whatsapp.com/438859978317289/?helpref=hc_fnav&cms_platform=web)
+- [How to invite members to a Community](https://faq.whatsapp.com/664523651672109/?helpref=hc_fnav&cms_platform=web)
 
 *"Many hands make light work."*

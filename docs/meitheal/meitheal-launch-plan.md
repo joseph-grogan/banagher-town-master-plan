@@ -6,7 +6,7 @@
 
 ## What Is the Meitheal?
 
-A meitheal (meh-hal) is an old Irish tradition — neighbours coming together to help one another and improve their community. The Banagher Meitheal is a modern, low-commitment version of that: a WhatsApp group of local people willing to lend a hand when they can.
+A meitheal (meh-hal) is an old Irish tradition — neighbours coming together to help one another and improve their community. The Banagher Meitheal is a modern, low-commitment version of that: a WhatsApp Community of local people willing to lend a hand when they can.
 
 No committees. No meetings. No obligations. Just a network that can be activated when a project needs a few extra pairs of hands.
 
@@ -22,12 +22,33 @@ The Meitheal is the engine that connects willing hands to real tasks. It's not j
 
 ## How It Works
 
-### The WhatsApp Group
+### The WhatsApp Community
 
-- One group: **Banagher Meitheal**
-- Used **only** for call-outs (not general chat)
-- Anyone can join, no commitment expected
-- If a call-out suits you, show up. If not, no problem.
+We'll use a **WhatsApp Community** rather than a simple group. A Community gives us:
+
+- **📢 Announcement channel** — one-way, admins post call-outs, members receive. No chat noise.
+- **💬 Optional sub-groups** — if a specific project needs coordination, we can spin up a group within the community for that.
+- **📊 Built-in events and polls** — useful for call-outs ("Can you make Saturday?").
+- **🔒 Phone numbers hidden** from other members — only admins can see them.
+- **👥 Up to 2,000 members** with no invite link restrictions.
+
+The structure:
+
+```
+Banagher Meitheal (Community)
+├── 📢 Announcements (call-outs go here, one-way)
+├── 💬 General Chat (optional, for anyone who wants to chat)
+├── 🌿 Tidy Towns Help (optional, spun up as needed)
+└── 🏰 Fort Falkland Event (optional, temporary)
+```
+
+Anyone can join via a **shared invite link** or **QR code**.
+
+**Why a Community and not a Group?** WhatsApp groups have a limit — once you pass 33 members, the invite link stops working for new joins and members must be added manually. Communities don't have this restriction. They also give you the one-way Announcement channel, which enforces the "call-outs only, no chat" rule structurally rather than relying on people to behave.
+
+**Useful links:**
+- [How to create a WhatsApp Community](https://faq.whatsapp.com/438859978317289/?helpref=hc_fnav&cms_platform=web)
+- [How to invite members to a Community](https://faq.whatsapp.com/664523651672109/?helpref=hc_fnav&cms_platform=web)
 
 ### The Call-Out Format
 
@@ -45,10 +66,10 @@ Every call-out posted to the group should follow the same simple format:
 
 Keeping call-outs consistent means people can scan them quickly and decide on the spot.
 
-### Ground Rules (pinned in the group)
+### Ground Rules (pinned in the Announcements channel)
 
-1. This group is for meitheal call-outs only — no replies, no general chat, memes, or politics. If you have a question, contact the coordinator directly.
-2. Call-outs are posted by the coordinator (or project leads by arrangement).
+1. The Announcements channel is for meitheal call-outs only — posted by the coordinator or project leads.
+2. General conversation belongs in the optional sub-groups, not Announcements.
 3. There's never any pressure to attend. Show up when you can.
 4. Be respectful and welcoming — especially to new faces.
 
@@ -84,14 +105,15 @@ The first event sets the tone. Pick something that:
 - Has a visible before-and-after result
 - Ends with tea/coffee and a chat
 
-### 3. Create the WhatsApp Group
+### 3. Create the WhatsApp Community
 
-- Create the group, name it **Banagher Meitheal**
-- Set the group description (use Option 1 text — see Appendix)
-- Add a group icon (something simple — the town crest, a pair of hands, or the Meitheal tagline)
-- Pin the ground rules as the first message
-- Pin the first event as the second message
-- Generate the invite link
+- Create the Community — see [How to create a community](https://faq.whatsapp.com/438859978317289/?helpref=hc_fnav&cms_platform=web)
+- Name it **Banagher Meitheal**
+- Set the community description (use Option 1 text — see Appendix)
+- Add a community icon (something simple — the town crest, a pair of hands, or the Meitheal tagline)
+- The Announcements channel is created automatically — pin the ground rules and first event there
+- Generate the invite link — see [How to invite members](https://faq.whatsapp.com/664523651672109/?helpref=hc_fnav&cms_platform=web)
+- Create a QR code from the invite link (any free QR generator will do)
 
 ### 4. Connect to Masterplan Project Leads
 
@@ -117,8 +139,8 @@ Ask each: *"What's one thing in the next month where extra hands would help?"* �
 |---|---|---|
 | 1 | Appoint coordinator | Now |
 | 2 | Pick and confirm the first event (date, location, task) | This week |
-| 3 | Create WhatsApp group, pin rules + first event | Once event is confirmed |
-| 4 | Post Option 2 text on social media with the WhatsApp link | Same day as group creation |
+| 3 | Create WhatsApp Community, pin rules + first event in Announcements | Once event is confirmed |
+| 4 | Post Option 2 text on social media with the Community invite link | Same day as Community creation |
 | 5 | Share Option 1 text via Banagher Notice Board | Same day |
 | 6 | Ask BDG members to share the link personally | Same day |
 | 7 | Run the first event | Within 2 weeks of launch |
@@ -142,15 +164,15 @@ The biggest risk is the group going quiet. Here's how to prevent that:
 
 ## Appendix: Launch Copy
 
-### Option 1 — For WhatsApp Group Description & Banagher Notice Board
+### Option 1 — For WhatsApp Community Description & Banagher Notice Board
 
 > **Banagher Meitheal — Helping Hands for Our Town**
 >
 > Would you like to play a small part in making Banagher an even better place to live?
 >
-> We're setting up a WhatsApp group called Banagher Meitheal. A meitheal is an old Irish tradition of neighbours coming together to help one another and improve their community.
+> We're setting up a WhatsApp Community called Banagher Meitheal. A meitheal is an old Irish tradition of neighbours coming together to help one another and improve their community.
 >
-> The group will be used for occasional call-outs when a few pairs of hands are needed for small projects such as:
+> The Community will be used for occasional call-outs when a few pairs of hands are needed for small projects such as:
 >
 > ✅ Tidy-ups of neglected spaces
 > ✅ Community planting days
@@ -163,7 +185,7 @@ The biggest risk is the group going quiet. Here's how to prevent that:
 > Together, many small actions can make a big difference.
 >
 > To join, click the link below:
-> [WhatsApp Link]
+> [WhatsApp Community Link]
 >
 > *"Many hands make light work."*
 
@@ -171,7 +193,7 @@ The biggest risk is the group going quiet. Here's how to prevent that:
 
 > **Banagher Meitheal**
 >
-> We're creating a WhatsApp group for people who would like to lend a hand occasionally with community projects around Banagher.
+> We're creating a WhatsApp Community for people who would like to lend a hand occasionally with community projects around Banagher.
 >
 > No committees. No meetings. No obligations.
 >
@@ -179,7 +201,7 @@ The biggest risk is the group going quiet. Here's how to prevent that:
 >
 > If you'd like to be part of a group that can respond quickly when a tidy-up, planting day or community project is organised, join us here:
 >
-> [WhatsApp Link]
+> [WhatsApp Community Link]
 >
 > *Banagher Meitheal — Neighbours helping neighbours.*
 
