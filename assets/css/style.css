@@ -30,6 +30,7 @@ body {
   line-height: 1.7;
   color: var(--grey-900);
   background: var(--grey-50);
+  overflow-x: hidden; /* guard against 100vw full-bleed scrollbar */
 }
 
 img { max-width: 100%; height: auto; }
@@ -41,7 +42,7 @@ a:hover { text-decoration: underline; }
 .container {
   max-width: 860px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 1.25rem; 
 }
 
 /* --- Header --- */
@@ -92,23 +93,53 @@ a:hover { text-decoration: underline; }
 
 /* --- Hero --- */
 .hero {
-  text-align: center;
-  padding: 3rem 0 2rem;
-  border-bottom: 3px solid var(--blue);
+  text-align: center; 
+  border-top: 3px solid #ffffff;
   margin-bottom: 2.5rem;
+
+  /* Full-bleed: break out of the .container so the banner reaches
+     both edges of the viewport, even though the section sits inside it. */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 400px;
+
+  /* Vertically centre the .hero-inner content within the min-height. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Banner image spanning edge to edge. Swap the filename below to use
+     a different banner. A light overlay keeps the text readable. */
+  background-image: 
+    url('../images/banagher-masterplan.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Inner wrapper keeps the text content centred at the site width. */
+.hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 2rem;
+  color: #ffffff;
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.8);
 }
 .hero h1 {
   font-size: 2.2rem;
-  color: var(--blue);
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 .hero .lead {
   font-size: 1.2rem;
-  color: var(--grey-600);
+  color: #ffffff;
   margin-bottom: 1rem;
   font-style: italic;
 }
-.hero p:last-child {
+.hero-inner p:last-child {
   max-width: 640px;
   margin: 0 auto;
 }

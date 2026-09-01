@@ -4,14 +4,18 @@ title: Home
 ---
 
 <section class="hero">
-  <h1>Banagher Town Masterplan</h1>
-  <p class="lead">Where History Meets Community, and Community Creates the Future</p>
-  <p>
-    The aim of this site is to show the community all the things that are happening
-    — as well as things that could happen with the right support and expertise from the town.
-    Please get involved where you can and lend a hand.
-  </p>
+  <div class="hero-inner">
+    <h1>Banagher Town Masterplan</h1>
+    <p class="lead">Where History Meets Community, and Community Creates the Future</p>
+    <p>
+      The aim of this site is to show the community all the things that are happening
+      — as well as things that could happen with the right support and expertise from the town.
+      Please get involved where you can and lend a hand.
+    </p>
+  </div>
 </section>
+
+<!-- 
 
 <section class="featured">
   <h2>🚀 Featured: Banagher Meitheal</h2>
@@ -24,6 +28,8 @@ title: Home
     <a href="{{ '/projects/meitheal/' | relative_url }}" class="btn">Read the full plan &rarr;</a>
   </p>
 </section>
+
+-->
 
 <section id="projects">
   <h2>Project Map</h2>
