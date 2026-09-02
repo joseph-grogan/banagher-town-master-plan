@@ -2,7 +2,7 @@
 title: Town Square
 tagline: Enhancing the Heart of Banagher
 status: Concept
-order: 5
+order: 6
 lat: 53.189884
 lng: -7.986839
 ---

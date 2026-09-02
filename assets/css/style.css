@@ -210,9 +210,12 @@ a:hover { text-decoration: underline; }
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
 }
-.status-concept     { background: #fff3e0; color: #e65100; }
-.status-in-progress { background: #e3f2fd; color: #1565c0; }
-.status-launched    { background: #e8f5e9; color: #2e7d32; }
+.status-concept         { background: #fff3e0; color: #e65100; }
+.status-seeking-funding { background: #f3e5f5; color: #6a1b9a; }
+.status-in-progress     { background: #e3f2fd; color: #1565c0; }
+.status-on-hold         { background: #fff8e1; color: #8d6e00; }
+.status-launched        { background: #e8f5e9; color: #2e7d32; }
+.status-abandoned       { background: #eeeeee; color: #616161; }
 
 /* --- Project Page --- */
 .project-header {

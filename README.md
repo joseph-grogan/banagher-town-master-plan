@@ -71,7 +71,13 @@ lng: -7.9870
 Your content here in plain markdown.
 ```
 
-- **status** — `Concept` (orange), `In Progress` (blue), or `Launched` (green)
+- **status** — one of the following:
+  - `Concept` (orange) — an early idea, not yet actioned
+  - `Seeking Funding` (purple) — beyond concept, needs funding before work can start
+  - `In Progress` (blue) — actively being worked on
+  - `On Hold` (amber) — paused, may resume later
+  - `Launched` (green) — completed and live
+  - `Abandoned` (grey) — no longer being pursued
 - **order** — controls sort order on the homepage
 - **lat/lng** — optional, places a pin on the map. Omit if the project has no fixed location.
 

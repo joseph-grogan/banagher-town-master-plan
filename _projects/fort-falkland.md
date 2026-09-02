@@ -1,6 +1,6 @@
 ---
 title: Fort Falkland
-tagline: A Historic Space Reimagined
+tagline: A Historic Space for social events and markets
 status: Concept
 order: 2
 lat: 53.192060

@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+<!-- 
 <section class="hero">
   <div class="hero-inner">
     <h1>Banagher Town Masterplan</h1>
@@ -15,7 +16,7 @@ title: Home
   </div>
 </section>
 
-<!-- 
+
 
 <section class="featured">
   <h2>🚀 Featured: Banagher Meitheal</h2>
@@ -32,13 +33,18 @@ title: Home
 -->
 
 <section id="projects">
-  <h2>Project Map</h2>
-  <p>Explore Banagher's projects on the map. Click a pin for details.</p>
+  <h2>Town Project Map</h2>
+  <p>The aim of this site is to show the community all the things that are happening — as well as things that could happen with the right support and expertise from the town. Please get involved where you can and lend a hand.</p>
+  <br />
+  <p>Explore Banagher's projects on the map. Click a pin for details. Note: not all projects are on the map, see below for all</p>
+  
   {% include map.html %}
 
   <h2 style="margin-top: 2.5rem;">All Projects</h2>
+  <p>* Items not represented on the map</p>
   <div class="project-grid">
-    {% for project in site.projects %}
+    {% assign sorted_projects = site.projects | sort: "order" %}
+    {% for project in sorted_projects %}
     <a href="{{ project.url | relative_url }}" class="project-card">
       <span class="status-badge status-{{ project.status | slugify }}">{{ project.status }}</span>
       <h3>{{ project.title }}</h3>

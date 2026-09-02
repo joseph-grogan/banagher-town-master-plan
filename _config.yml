@@ -12,7 +12,6 @@ permalink: /projects/:slug/
 collections:
   projects:
     output: true
-    sort_by: order
 
 defaults:
   - scope:
