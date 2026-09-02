@@ -11,18 +11,26 @@ The Shannon Hotel was once a central part of life in Banagher — a landmark bui
 
 The property is currently owned by Offaly County Council, who are carrying out essential works with the hope that a hotel developer might take on the site. While this remains uncertain, the community has a unique opportunity to shape a long-term vision for this important location. 
 
-We believe the site should become a public space and an integral part of the Marina redevelopment. A thoughtful, community‑driven plan could transform the area into a vibrant hub that supports tourism, recreation, and local life.
-
-The West End of Banagher was once the liveliest part of the town. With careful planning and a shared vision, the Marina, the West End, and the town as a whole can once again can become a key feature of the Offaly tourism landscape — and a place that enhances the quality of life for everyone who lives here.
+We believe the site should become a public space and an integral part of the Marina redevelopment by extending into the grounds of the hotel (use the hotel building for other purposes). A thoughtful, community‑driven plan could transform the area into a vibrant hub that supports tourism, recreation, and local life.
 
 ## Concepts
 
-### Current Hotel Grounds
-<img src="{{ '/assets/images/hotel-grounds/current-hotel-grounds.png' | relative_url }}" alt="Current Hotel Grounds" width="400">
+### DRONE SHOT SHOWING CONCEPT AREAS WITH MARINA PLAN TO THE LEFT
 
----
+#### Examples to propose for activity hub
 
-### Proposed Hotel Grounds
+NOTE: Key to these items working for the communtiy is to ensure passive supervision so it must be visible from the main Marina entrance / road
+
+- Playground
+- Multi Use Court (Basketball, Tennis, Soccer)
+- Paddle Courts
+- Table Tennis
+- Chess Tables
+- Large Outdoor Seating
+- Campervan Area & Services
+- Ballwall 
+- Cafe/Shop (becomes defacto manager of the area)
+- Natural stop for end of the Canal Greenway to Banagher
 
 **Sports Courts** and extended paths ways
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds.png' | relative_url }}" alt="Proposed Hotel Grounds" width="800">
@@ -36,6 +44,7 @@ The West End of Banagher was once the liveliest part of the town. With careful p
 **Campervan Parking** and entrance
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-campervan-park.png' | relative_url }}" alt="Proposed Hotel Grounds with campervan park" width="800">
 
+---
 
-
-
+### Current Hotel Grounds
+<img src="{{ '/assets/images/hotel-grounds/current-hotel-grounds.png' | relative_url }}" alt="Current Hotel Grounds" width="400">
