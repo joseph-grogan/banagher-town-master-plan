@@ -1,5 +1,5 @@
 ---
-title: Shannon Hotel Grounds
+title: Old Shannon Hotel Grounds
 tagline: Reimagining a landmark as an activty hub for the Community
 status: Concept
 order: 3
@@ -7,19 +7,31 @@ lat: 53.192133
 lng: -7.989444
 ---
 
-The Shannon Hotel was once a central part of life in Banagher — a landmark building that brought activity, visitors, and energy to the town. Over the years, the building has fallen into disrepair.
+Once a central part of life in Banagher — a landmark building that brought activity, visitors, and energy to the town. Over the years, the building has fallen into disrepair.
 
-The property is currently owned by Offaly County Council, who are carrying out essential works with the hope that a hotel developer might take on the site. While this remains uncertain, the community has a unique opportunity to shape a long-term vision for this important location. 
+The Shannon Hotel grounds (not the building) can be reimagined as an integral part of the Marina redevelopment by extending into the grounds with a thoughtful, community‑driven plan to ensure the marina becomes a vibrant hub for activity, recreation, and local life for both locals and tourists.
 
-We believe the site should become a public space and an integral part of the Marina redevelopment by extending into the grounds of the hotel (use the hotel building for other purposes). A thoughtful, community‑driven plan could transform the area into a vibrant hub that supports tourism, recreation, and local life.
+> Key to these items working for the communtiy is to ensure passive supervision so it must be visible from the main Marina entrance / road and becomes a natural stop for end of the Canal Greenway to Banagher
 
 ## Concepts
 
-### DRONE SHOT SHOWING CONCEPT AREAS WITH MARINA PLAN TO THE LEFT
+### Current Marina plans
 
-#### Examples to propose for activity hub
+<img src="{{ '/assets/images/hotel-grounds/marina-plans.png' | relative_url }}" alt="Current Marina Plans" width="600">
 
-NOTE: Key to these items working for the communtiy is to ensure passive supervision so it must be visible from the main Marina entrance / road
+### Propose to extend Marina plans into the grounds of the old hotel
+
+<img src="{{ '/assets/images/hotel-grounds/marina-plans-extended.png' | relative_url }}" alt="Marina Plans Extended" width="800">
+
+### Potential use with surrounding builings
+
+<img src="{{ '/assets/images/hotel-grounds/hotel-grounds-potential-uses.png' | relative_url }}" alt="Potential use of grounds with surrounding buildings" width="800">
+
+### Example layout of spaces
+
+<img src="{{ '/assets/images/hotel-grounds/hotel-grounds-idea-breakout.png' | relative_url }}" alt="Zoomed into hotel ground potential uses" width="800">
+
+### Items which could be within this space
 
 - Playground
 - Multi Use Court (Basketball, Tennis, Soccer)
@@ -30,21 +42,25 @@ NOTE: Key to these items working for the communtiy is to ensure passive supervis
 - Campervan Area & Services
 - Ballwall 
 - Cafe/Shop (becomes defacto manager of the area)
-- Natural stop for end of the Canal Greenway to Banagher
 
-**Sports Courts** and extended paths ways
-<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds.png' | relative_url }}" alt="Proposed Hotel Grounds" width="800">
+### Example pictures
+ 
+**Sports Courts**
 
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-football-pitch.png' | relative_url }}" alt="Example football pitch" width="800">
 
+**Example Outdoor Pitches**
+
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-football-pitch-material.png' | relative_url }}" alt="Example football pitch material" width="300">
 
----
-
 **Campervan Parking** and entrance
+
 <img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-campervan-park.png' | relative_url }}" alt="Proposed Hotel Grounds with campervan park" width="800">
 
----
+**Ball Wall**
 
-### Current Hotel Grounds
-<img src="{{ '/assets/images/hotel-grounds/current-hotel-grounds.png' | relative_url }}" alt="Current Hotel Grounds" width="400">
+<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-ball-wall.png' | relative_url }}" alt="Ball wall" width="800">
+
+**Chess Table**
+
+<img src="{{ '/assets/images/hotel-grounds/proposed-hotel-grounds-chess-table.png' | relative_url }}" alt="Chess Table" width="800">
